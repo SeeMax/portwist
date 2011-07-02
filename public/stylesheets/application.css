@@ -1,0 +1,16 @@
+
+#headerbar {background:#b4b5b7; padding:27px 0px; width 100%;}
+#nav_r {float:right;}
+#nav_l {float:left;}
+#logo {text-align: center; margin: 99px auto 39px auto; width:800px;}
+#line {height:1px; width:600px; color:#b4b5b7; background:#b4b5b7; border:none; }
+#rss {position: absolute; top: 12px; right: 115px;}
+#twitter {position: absolute; top: 14px; right: 35px; border:}
+#tabs ul {position: absolute; top: 32px; left: 0px; color:#b4b5b7;}
+#tabs #tab-home {position: absolute; top: 20px; left: 0px; z-index:-1;padding: 58px 233px 0 0; background-image:url('public/images/home_btn_active.png'); background-repeat:no-repeat;}
+#tabs #tab-submit {position: absolute; top: 20px; left: 128px; z-index:-2; padding: 58px 233px 0 0; background-image:url('public/images/submit_btn.png'); background-repeat:no-repeat;}
+#tabs #tab-how-to {position: absolute; top: 20px; left: 256px; z-index:-3; padding: 58px 233px 0 0; background-image:url('public/images/howto_btn.png'); background-repeat:no-repeat;}
+#tabs #tab-current{}
+.links {position:absolute;right:70px; background: #b4b5b7; text-align: right; padding-right: 15;}
+.links li{display:inline;margin:0 2px;}
+.clear {clear:both;}

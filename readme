@@ -1,1 +1,15 @@
 portwist!
+
+http://portwist.com/
+
+http://portwist.dev/
+
+# launch terminal
+cd code/portwist # get into directory with terminal
+mate . # open all files in the current directory in textmate
+
+gl # git pull (pull trevor's changes)
+
+git add . # add all changed to git's index and prepare to commit
+gca -m 'message' # git commit all with message
+gp # git push (push your changes to heroku)

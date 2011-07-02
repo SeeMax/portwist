@@ -2,12 +2,35 @@
 <html>
 <head>
   <title>Portwist</title>
-  <%= stylesheet_link_tag 'application' %>
+  <%= stylesheet_link_tag 'reset', 'application' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tag %>
 </head>
-<body>
-
+<body>    
+  <div id="headerbar">
+	  <a id="rss" href="http://www.twitter.com/portwist"><img src="images/RSS_button.png" alt="rss"></a> 
+    <a id="twitter" href="http://www.twitter.com/portwist"><img src="images/twitter_button.png"></a>
+  </div><!-- #headerbar -->
+  	<div class="clear"> </div>
+  <div id="nav_l">
+      <img src="images/header_spike_left.png">
+  </div><!-- #nav_l -->
+  <div id="nav_r">
+    <img src="images/header_spike_right.png">
+  </div><!-- #nav_r -->
+    <div class="clear"> </div>
+  <div id="tabs">
+    <ul>
+      <li id="tab-home"></li>
+      <li id="tab-submit"></li>
+      <li id="tab-how-to"></li>
+    </ul>
+  </div><!-- #tabs -->
+  <div class="clear"> </div>
+    <div id="logo">
+      <img src="images/logo.png">
+    </div><!-- #logo -->
+  
 <%= yield %>
 
 </body>

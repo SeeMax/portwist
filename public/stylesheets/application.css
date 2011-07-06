@@ -36,17 +36,17 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #root-index {background:;}
 
 /*This is the code for how-to*/
-#content {width:700px; margin-right: auto; margin-left: auto; padding: 0px 0px 0px 30px;}
-#frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; background-position:top right; float: right; margin: 48px 0px 0px 0px;}
+#wrapper {width:700px; margin-right: auto; margin-left: auto; padding: 0px 0px 0px 30px; border-style:none; border-width:1px; border-color:red;} 
+#frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; background-position:top right; float: right; margin: 38px 0px 0px 0px;}
 #browse_l {float:left; padding: 20px 20px 0px 30px;}
 #browse_r {float:right; padding: 20px 30px 0px 20px;}
 #picture_title_l {float:left; padding: 80px 60px 0px 70px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
 #picture_title_r {float:right; padding: 80px 70px 0px 60px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
-#instructions {float:left; margin: 70px 0px 0px 0px;}
+#instructions {float:left; margin: 60px 0px 0px 0px;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
-#description {margin: 170px 15px 0px 350px;}
-#description li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
-#description_l {float:left; margin: 10px 0px 0px 0px;}
-#description_r {float: right; margin: 10px 0px 0px 0px;}
+#description_ht {margin: 170px 15px 0px 350px;}
+#description_ht li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
+#description_ht_l {float:left; margin: 10px 0px 0px 0px;}
+#description_ht_r {float: right; margin: 10px 0px 0px 0px;}
 #submit {float:left; margin:55px 0px 0px 450px; padding: 0px 0px 0px 0px;}
 #submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}

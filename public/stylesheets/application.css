@@ -2,7 +2,7 @@
 #headerbar {background:#b4b5b7; padding:27px 0px; width 100%;}
 #nav_r {float:right;}
 #nav_l {position: absolute; top: 53px;left: 0px; z-index:4;}
-#logo {text-align: center; margin: 90px auto 0px auto; width:800px; padding: 0px 0px 00px 0px;}
+#logo {text-align: center; margin: 90px auto 0px auto; width:700px; padding: 0px 30px;}
 #line {height:1px; width:600px; color:#b4b5b7; background:#b4b5b7; border:none; margin:50px auto 0px auto;}
 #rss {position: absolute; top: 12px; right: 115px;}
 #twitter {position: absolute; top: 14px; right: 35px;}
@@ -13,7 +13,7 @@
 .clear {clear:both;}
 
 /*This is the code for index*/
-#content {width:700px; margin-right: auto; margin-left: auto; padding: 0px 0px 0px 30px;}
+#content {width:700px; margin: 0px auto 0px auto; padding: 0px 30px;}
 #photos {height:163px; text-align: center; background-position: top; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; text-align: center; margin: 30px 0px 50px 0px;}
 #description {margin: 15px 0px 0px 0px;}
 #description li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
@@ -32,21 +32,24 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #right_side ul {text-align:left; font:13px century gothic,sans-serif; color:#b4b5b7;}
 #right_side li {text-align:left; font:13px century gothic,sans-serif; color:#b4b5b7; padding: 0px 0px 20px 0px;}
 #submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}
-#wrapper {width:700px; margin-right: auto; margin-left: auto; padding: 0px 0px 0px 30px;}
+#wrapper {width:700px; margin: 0px auto 0px auto; padding: 0px 30px;}
 #root-index {background:;}
 
 /*This is the code for submit*/
-#wrapper_st {width:700px; height:300px; margin-right: auto; margin-left: auto; margin-top:0px; padding: 0px 50px; border-style:solid; border-width:1px; border-color:} 
-#frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; background-position:top right; float: right; margin: 38px 0px 0px 0px;}
+#wrapper_st {width:700px; margin:30px auto 0px auto; padding:0px 30px;} 
+#frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; float: right;}
 #browse_l {float:left; padding: 20px 20px 0px 30px;}
 #browse_r {float:right; padding: 20px 30px 0px 20px;}
 #picture_title_l {float:left; padding: 80px 60px 0px 70px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
 #picture_title_r {float:right; padding: 80px 70px 0px 60px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
-#instructions {float:left; margin: 60px 0px 0px 0px;}
+#instructions {float:left; margin: 30px 0px 0px 25px;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
-#description_st {margin: 170px 15px 0px 350px;}
+#description_st {margin: 0px 15px 0px 350px;}
 #description_st li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
 #description_st_l {float:left; margin: 10px 0px 0px 0px;}
 #description_st_r {float: right; margin: 10px 0px 0px 0px;}
-#submit {float:left; margin:55px 0px 0px 450px; padding: 0px 0px 0px 0px;}
+#submit {float:left; margin:55px 0px 0px 450px; padding: 0px 0px 0px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
 #submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}
+
+
+/*This is the code for testing borders* border-style:solid; border-color:red; border-width:1px;/

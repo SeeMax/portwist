@@ -48,8 +48,29 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #description_st li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
 #description_st_l {float:left; margin: 10px 0px 0px 0px;}
 #description_st_r {float: right; margin: 10px 0px 0px 0px;}
-#submit {float:left; margin:55px 0px 0px 450px; padding: 0px 0px 0px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
+#submit {float:left; margin:55px 0px 0px 450px; padding: 15px 0px 15px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
 #submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}
+
+/*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
+#wrapper_tandc {width:590px; margin: 230px auto 10px auto; padding: 35px 0px 35px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
+#p1_tandc {text-align:center; margin-right:auto; margin-left:auto; margin-top: 10px; margin-bottom:10px; color:#b4b5b7; font:43px century gothic,sans-serif;}
+#p2_tandc {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:13px century gothic,sans-serif;}
+#tryagain {text-align:center; padding: 30px 0px 0px 0px;}
+
+/*This is the code for success pop up  The top and bottom margin will change once it becomes a pop up*/
+#content_sc {width:590px; margin: 430px auto 10px auto; padding: 20px 0px 20px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
+#p1_sc {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:110px century gothic,sans-serif;}
+#p2_sc {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:15px century gothic,sans-serif;}
+#tryagain {text-align:center; padding: 30px 0px 0px 0px;}
+#submit_text_sc {color:#b4b5b7; font:15px century gothic,sans-serif; text-decoration: underline;}
+
+/*This is the code for failure pop up  The top and bottom margin will change once it becomes a pop up*/
+#content_f {width:590px; margin: 100px auto 10px auto; padding: 0px 0px 20px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
+#p1_f {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:110px century gothic,sans-serif;}
+#p2_f {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:15px century gothic,sans-serif;}
+#tryagain {text-align:center; padding: 30px 0px 0px 0px;}
+
+
 
 
 /*This is the code for testing borders* border-style:solid; border-color:red; border-width:1px;/

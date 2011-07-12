@@ -28,3 +28,4 @@ gp # git push (push your changes to heroku)
 git add . # add all changed to git's index and prepare to commit
 git stash # stash changes away, note "git stash pop" would bring them back
 
+added the pop ups in ot the regular page code. They will become pop ups but I don't know how to code exactly. Visualy they all work now. Everything is designed for the html/css. Still need button functionality, pop ups and check box.'

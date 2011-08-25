@@ -4,6 +4,12 @@ http://portwist.com/
 http://portwist.dev/
 
 
+## setup
+
+gem install bundler
+bundle
+
+
 ## open portwist code
 
 # launch terminal

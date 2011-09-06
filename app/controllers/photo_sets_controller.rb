@@ -3,7 +3,7 @@ class PhotoSetsController < ApplicationController
 
   def create
     @photo_set = PhotoSet.new(params[:photo_set])
-    if @photo_set.save!
+    if @photo_set.save
       render 'success'
     else
       render 'failure'

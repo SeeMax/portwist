@@ -1,0 +1,11 @@
+<% @photo_sets.each do |photo_set| %>
+  <p><%= photo_set.id %></p>
+  <p><%= image_tag photo_set.photo_1.url(:s) %></p>
+  <p><%= image_tag photo_set.photo_2.url(:s) %></p>
+  <p><%= photo_set.your_title %></p>
+  <p><%= photo_set.your_name %></p>
+  <p><%= photo_set.status %></p>
+  <%= button_to "approve", {:action => "update", :id => photo_set.id, :status => "approved"}, :method => :put %>
+  <%= button_to "reject", {:action => "update", :id => photo_set.id, :status => "rejected"}, :method => :put %>
+  <hr>
+<% end %>

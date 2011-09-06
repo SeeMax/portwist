@@ -5,4 +5,5 @@ CarrierWave.configure do |config|
     :aws_secret_access_key  => 'ohvxaulBJ27sPd8SouRphKIYyyI2eu41UN7tuS+K'
   }
   config.fog_directory  = 'portwist'
+  config.cache_dir = "#{Rails.root}/tmp/uploads"
 end

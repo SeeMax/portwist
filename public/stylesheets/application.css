@@ -19,8 +19,8 @@
 #description li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
 #description_l {float:left; padding: 0px 0px 0px 180px;}
 #description_r {float: right; padding: 0px 180px 0px 0px;}
-.user_left {margin: 29px 12px 0px 0px;}
-.user_right {margin: 29px 1px 0px 0px;}
+.user_left {margin: 28px 12px 0px 0px;}
+.user_right {margin: 28px 1px 0px 0px;}
 
 /*This is the code for how-to*/
 p.left {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7; }

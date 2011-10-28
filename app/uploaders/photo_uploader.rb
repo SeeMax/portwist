@@ -9,8 +9,8 @@ class PhotoUploader < CarrierWave::Uploader::Base
     "photos/#{model.id}"
   end
 
-  version :s do
-    process :resize_to_limit => [100, 100]
+  version :home do
+    process :resize_to_limit => [161, 120]
   end
 
   version :m do
@@ -18,11 +18,11 @@ class PhotoUploader < CarrierWave::Uploader::Base
   end
 
   version :l do
-    process :resize_to_limit => [500, 500]
+    process :resize_to_limit => [100, 100]
   end
 
   version :xl do
-    process :resize_to_limit => [800, 800]
+    process :resize_to_limit => [600, 600]
   end
 
   def extension_white_list

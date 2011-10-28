@@ -39,7 +39,7 @@
   	    <div class="clear"></div>
         <%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
           <div class="field">
-            <%= f.label :photo_1 %><br />
+            <%= f.label :photo_1 %><br /><br />
             <%= f.file_field :photo_1 %>
           </div>
           <div class="field">
@@ -58,7 +58,7 @@
             <%= f.check_box :terms %> <%= f.label :terms, 'I agree to the terms & conditions' %>
           </div>
           <div class="actions">
-            <%= f.submit 'Submit' %>
+            <%= f.submit 'Submit', :class => 'submit_btn'%>
           </div>
         <% end %>
 

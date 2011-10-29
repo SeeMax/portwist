@@ -36,20 +36,23 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #root-index {background:;}
 
 /*This is the code for submit*/
-#wrapper_st {width:700px; margin:30px auto 0px auto; padding:0px 30px;} 
+#wrapper_st {width:700px; margin:15px auto 0px auto; padding:0px 30px;} 
 #frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; float: right;}
-#browse_l {float:left; padding: 20px 20px 0px 30px;}
-#browse_r {float:right; padding: 20px 30px 0px 20px;}
-#picture_title_l {float:left; padding: 80px 60px 0px 70px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
-#picture_title_r {float:right; padding: 80px 70px 0px 60px; display:inline; font:12px century gothic,sans-serif; color:#b4b5b7;}
+#picture_title_l {float: left; margin: 15px 0px 0px 0px; padding: 65px 26px 22px 29px; font:12px century gothic,sans-serif; color:#b4b5b7;text-align:center;}
+#picture_title_r {float:right; margin: 15px 0px 0px 0px; padding: 65px 30px 22px 25px; font:12px century gothic,sans-serif; color:#b4b5b7; text-align:center;}
+#browse_l {text-align:center;}
+#browse_r {text-align:center;}
 #instructions {float:left; margin: 30px 0px 0px 25px;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
-#description_st {margin: 0px 15px 0px 350px;}
-#description_st li {display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
-#description_st_l {float:left; margin: 10px 0px 0px 0px;}
-#description_st_r {float: right; margin: 10px 0px 0px 0px;}
-#submit {float:left; margin:55px 0px 0px 450px; padding: 15px 0px 15px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
+#description_st_l {float:left; margin: 0px 0px 50px 15px; display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
+#description_st_r {float: right; margin: 0px 15px 50px 0px; display:inline; color:#b4b5b7; font:13px century gothic,sans-serif; text-align:right;}
+#submit {margin:0px 0px 0px 120px; padding: 100px 0px 15px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
 #submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}
+input[type="submit"] {background:url(../images/submit_button.png);}
+input[type="file"] {z-index:2; opacity:0; width:0px; height:15px; margin:25px 0px 0px 0px; }
+input[type="text"] {z-index: 2; width:121px; height:10px; margin:10px 0px 0px 0px; border-width:1px; border-color:#b4b5b7; border-style:solid;}
+input[type="checkbox"] {-webkit-appearance:none;-o-appearance:none;}
+
 
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
 #wrapper_tandc {width:590px; margin: 230px auto 10px auto; padding: 35px 0px 35px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
@@ -71,8 +74,8 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #tryagain {text-align:center; padding: 30px 0px 0px 0px;}
 
 /*This is the code for styling the submission fields;*/
-.field {padding:20px; border: 1px solid #006;}
-.submit_btn {padding:20px;}
+.field {}
+.submit_btn {}
 .actions {}
 	
 	

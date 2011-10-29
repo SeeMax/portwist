@@ -1,7 +1,7 @@
 <div id="wrapper_st">
 	    <div id="instructions">
 	      <ul>
-	        <li>WITH YOUR IPHONE 4:</li>
+	        <li>WITH YOUR IPHONE 4 OR 4S:</li>
           <li>1. Take a picture of yourself.</li>
           <li>2. Flip the camera around.</li>
           <li>3. Take a picture of your surroundings.</li>
@@ -12,54 +12,41 @@
         </ul>
 	    </div><!--#instructions -->
 	    <div class="clear"></div>
-	      <div id="frame">
-          <ul>
-  	        <li id="picture_title_l">Picture 1</li>
-  	        <li id="picture_title_r">Picture 2</li>
-  	      </ul>
-            <img id="browse_l" src="images/browse_button.png">
-            <img id="browse_r" src="images/browse_button.png">
-        </div><!-- #frame -->
-      <div id="description_st">
-        <ul>
-          <li id="description_st_l">(YOUR TITLE)</li>
-          <li id="description_st_r">(YOUR NAME)</li>
-        </ul>
-      </div><!--#description_st -->
-        <div id="submit">
-          <img src="images/submit_button.png">
-          <br>
-          <br>
-          <img src="images/submit_box.png">
-          &nbsp
-          I agree to the <a id="submit_text" href="/termsandconditions">terms & conditions.</a>
-        </div><!--#submit -->
-
-
-  	    <div class="clear"></div>
-        <%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
-          <div class="field">
-            <%= f.label :photo_1 %><br /><br />
-            <%= f.file_field :photo_1 %>
+	  <div id="frame">
+      <%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
+        <div id="picture_title_l">
+        <%= f.label :photo_1, 'Picture 1'%>
+          <div id="browse_l">
+            <%= f.file_field :photo_1  %>
+            <img src="/images/browse_button.png" />
           </div>
-          <div class="field">
-            <%= f.label :photo_2 %><br />
+        </div>
+          <div id="picture_title_r">
+            <%= f.label :photo_2, 'Picture 2' %><br />
+            <div id="browse_r">
             <%= f.file_field :photo_2 %>
+            <img src="/images/browse_button.png" />
+            </div>
           </div>
-          <div class="field">
-            <%= f.label :your_name %><br />
-            <%= f.text_field :your_name %>
-          </div>
-          <div class="field">
-            <%= f.label :your_title %><br />
-            <%= f.text_field :your_title %>
-          </div>
-          <div class="field">
-            <%= f.check_box :terms %> <%= f.label :terms, 'I agree to the terms & conditions' %>
-          </div>
-          <div class="actions">
-            <%= f.submit 'Submit', :class => 'submit_btn'%>
-          </div>
-        <% end %>
+        <div id="description_st_l">
+          <%= f.text_field :your_title %><br />
+          <%= f.label :your_title, '(YOUR TITLE)' %>
+        </div>
+        <div id="description_st_r">
+          <%= f.text_field :your_name %><br />
+          <%= f.label :your_name, '(YOUR NAME)' %>
+        </div>
+        <div id="submit">
+          <%= f.submit "", :type => :image, :src => "/images/submit_button.png" %>
+          <br />
+        <%= f.check_box :terms %> 
+        <%= f.label :terms, '' %>
+          <p>I agree to the <a id='submit_text' href=/termsandconditions> terms & conditions.</a></p>
+            <div id='submit_text'> 
+            </div>
+        </div>
+      </div><!--#frame -->
+      
+    <% end %>
 
 	</div><!-- #wrapper-st -->

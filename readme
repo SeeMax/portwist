@@ -38,4 +38,19 @@ gp # git push (push your changes to heroku)
 git add . # add all changed to git's index and prepare to commit
 git stash # stash changes away, note "git stash pop" would bring them back
 
-added the pop ups in ot the regular page code. They will become pop ups but I don't know how to code exactly. Visualy they all work now. Everything is designed for the html/css. Still need button functionality, pop ups and check box.'
+
+THINGS STILL NEED TO DO
+1. Fix Terms and Conditions Pop Up
+2. Make SUbmit form work on iphone
+3. Fix up the approval page. Fix buttons. Make posts disappear after approval?
+4. Make each Portwist clickable to a larger size w/ lightbox or something.
+5. What happens when user submitted name is too long for one line?
+6. Work Out Horizontal pics. Horizontal background. How does site determine?
+
+
+Things I specifically need to do:
+1. Cut off edge home button so it doesn't show on edge of page.
+2. Start with (Your Name) and (YOur title) in boxes
+3. Fix browse button: Make cursor to pointer. Make pic appear in background. SOmehow show user pic has been chosen.
+4. Style the check box.
+5. Fix up the copy on T and C next to style box (so terms and conditions links to pop up / url)

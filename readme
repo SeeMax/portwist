@@ -40,18 +40,21 @@ git stash # stash changes away, note "git stash pop" would bring them back
 
 
 THINGS STILL NEED TO DO
-1. Fix Terms and Conditions Pop Up
-2. Make SUbmit form work on iphone
-3. Fix up the approval page. Fix buttons. Make posts disappear after approval?
-4. Make each Portwist clickable to a larger size w/ lightbox or something.
-5. What happens when user submitted name is too long for one line?
-6. Work Out Horizontal pics. Horizontal background. How does site determine?
-Fix contact us link in terms and conditions. Make it launch default mail client.
+NOW:
+1. Fix Terms and Conditions Pop Up. Make terms and conditions box a pop up. Remove it from current static position.
+2. Add instructions on how to email multiple images from iphone to us.
+3. What happens when user submitted name is too long for one line?
+4. Work Out Horizontal pics. Horizontal background. How does site determine? Add second background.
+5. Fix contact us link in terms and conditions. Make it launch default mail client.
+6. Fix browse button: Make cursor to pointer. Make pic appear in background. Somehow show user pic has been chosen.
+7. Start with (Your Name) and (YOur title) in boxes
 
 
-Things I specifically need to do:
+LATER
+1. Make Submit form work on iphone. Anyway outside an App? 
+2. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
+
+Things Max specifically need to do:
 1. Cut off edge home button so it doesn't show on edge of page.
-2. Start with (Your Name) and (YOur title) in boxes
-3. Fix browse button: Make cursor to pointer. Make pic appear in background. SOmehow show user pic has been chosen.
-4. Style the check box.
-5. Fix up the copy on T and C next to style box (so terms and conditions links to pop up / url)
+2. Add instructions about how to submit multiple pictures via email.
+3. Increase size of all Portwists on home page.

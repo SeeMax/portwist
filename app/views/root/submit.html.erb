@@ -36,16 +36,14 @@
           <%= f.text_field :your_name %><br />
           <%= f.label :your_name, '(YOUR NAME)' %>
         </div>
+    </div><!--#frame -->
         <div id="submit">
           <%= f.submit "", :type => :image, :src => "/images/submit_button.png" %>
-          <br />
-        <%= f.check_box :terms %> 
-        <%= f.label :terms, '' %>
-          <p>I agree to the <a id='submit_text' href=/termsandconditions> terms & conditions.</a></p>
-            <div id='submit_text'> 
-            </div>
+          </br>
+          <div id='submit_plain'> By clicking submit you agree to the <a id='submit_link' href=/termsandconditions> terms & conditions.</a>
+          </div>
         </div>
-      </div><!--#frame -->
+      
       
     <% end %>
 

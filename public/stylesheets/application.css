@@ -4,8 +4,7 @@
 #nav_l {position: absolute; top: 53px;left: 0px; z-index:4;}
 #logo {text-align: center; margin: 90px auto 0px auto; width:700px; padding: 0px 30px;}
 #line {height:1px; width:600px; color:#b4b5b7; background:#b4b5b7; border:none; margin:50px auto 0px auto;}
-#rss {position: absolute; top: 12px; right: 115px;}
-#twitter {position: absolute; top: 14px; right: 35px;}
+#twitter {position: absolute; top: 14px; right: 38px;}
 #tabs #tab-home {position: absolute; top: 52px;left: 0px; z-index:3;}
 #tabs #tab-submit {position: absolute; top: 52px;left: 128px; z-index:2;}
 #tabs #tab-how-to {position: absolute; top: 52px; left: 256px; z-index:1;}
@@ -46,8 +45,9 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
 #description_st_l {float:left; margin: 0px 0px 50px 15px; display:inline; color:#b4b5b7; font:13px century gothic,sans-serif;}
 #description_st_r {float: right; margin: 0px 15px 50px 0px; display:inline; color:#b4b5b7; font:13px century gothic,sans-serif; text-align:right;}
-#submit {margin:0px 0px 0px 120px; padding: 100px 0px 15px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: none;}
-#submit_text {color:#b4b5b7; font:13px century gothic,sans-serif; text-decoration: underline;}
+#submit {margin:225px 0px 0px 337px; padding: 10px 0px 30px 0px;color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: none; text-align:center;}
+#submit_plain {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: none; padding: 10px 0px 0px 0px;}
+#submit_link {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: underline;}
 input[type="submit"] {background:url(../images/submit_button.png);}
 input[type="file"] {z-index:2; opacity:0; width:0px; height:15px; margin:25px 0px 0px 0px; }
 input[type="text"] {z-index: 2; width:121px; height:10px; margin:10px 0px 0px 0px; border-width:1px; border-color:#b4b5b7; border-style:solid;}

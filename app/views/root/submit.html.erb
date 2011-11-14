@@ -18,25 +18,25 @@
         <%= f.label :photo_1, 'Picture 1'%>
           <div id="browse_l">
             <%= f.file_field :photo_1  %>
-            <img src="/images/browse_button.png" />
           </div>
         </div>
           <div id="picture_title_r">
             <%= f.label :photo_2, 'Picture 2' %><br />
             <div id="browse_r">
             <%= f.file_field :photo_2 %>
-            <img src="/images/browse_button.png" />
             </div>
           </div>
-        <div id="description_st_l">
-          <%= f.text_field :your_title %><br />
-          <%= f.label :your_title, '(YOUR TITLE)' %>
-        </div>
-        <div id="description_st_r">
-          <%= f.text_field :your_name %><br />
-          <%= f.label :your_name, '(YOUR NAME)' %>
-        </div>
-    </div><!--#frame -->
+      </div><!--#frame -->
+        <div id='descriptions'>
+          <div id="description_st_l">
+            <%= f.text_field :your_title %><br />
+            <%= f.label :your_title, '(YOUR TITLE)' %>
+          </div>
+          <div id="description_st_r">
+            <%= f.text_field :your_name %><br />
+            <%= f.label :your_name, '(YOUR NAME)' %>
+          </div>
+        </div><!--#descriptions -->
         <div id="submit">
           <%= f.submit "", :type => :image, :src => "/images/submit_button.png" %>
           </br>

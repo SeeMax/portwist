@@ -39,8 +39,8 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #frame {height:162px; width:366px; background-image:url("../images/camera_background.png"); background-repeat:no-repeat; float: right;}
 #picture_title_l {width:160px; height: 70px; float: left; margin: 28px 0px 10px 12px; padding: 50px 0px 0px 0px; font:12px century gothic,sans-serif; color:#b4b5b7;text-align:center;}
 #picture_title_r {width: 160px; height: 70px; float:right; margin: 28px 13px 10px 0px; padding: 50px 0px 0px 0px; font:12px century gothic,sans-serif; color:#b4b5b7;text-align:center;}
-#browse_l {margin: 20px 0px 0px 0px; background:url(../images/browse_button.png); background-repeat:no-repeat;background-position:center; }
-#browse_r {margin: 20px 0px 0px 0px; background:url(../images/browse_button.png); background-repeat:no-repeat;background-position:center; }
+#browse_l {margin: 20px 12px 0px 12px; background:url(../images/browse_button.png); background-repeat:no-repeat;background-position:center; border-style:solid; border-color:red; border-width:1px;}
+#browse_r {margin: 20px 12px 0px 12px; background:url(../images/browse_button.png); background-repeat:no-repeat;background-position:center; border-style:solid; border-color:red; border-width:1px;}
 #instructions {float:left; margin: 30px 0px 0px 25px;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
 #descriptions {margin:170px 15px 0px 345px;color:#b4b5b7; font:13px century gothic,sans-serif; padding: 0px 0px 40px 0px;}
@@ -50,7 +50,7 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #submit_plain {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: none; padding: 10px 0px 0px 0px;}
 #submit_link {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: underline;}
 input[type="submit"] {background:url(../images/submit_button.png);}
-input[type="file"] {z-index:2; opacity:0; width:120px; height:20px; margin:0px 0px 0px 0px;}
+input[type="file"] {z-index:2; opacity:0; height:20px; position:relative; left:-9.5px; text-align: right; -moz-opacity:0 ;filter:alpha(opacity: 0);}
 input[type="text"] {width:121px; height:12px; border-width:1px; border-color:#b4b5b7; border-style:solid; margin:5px 0px 3px 0px;}
 
 

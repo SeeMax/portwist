@@ -45,22 +45,19 @@ git push heroku master
 
 
 ## max
+TODAY:
+1. What happens when user submitted name is too long for one line?
+2. Fix browse button: Make cursor to pointer. Make pic appear in background. Somehow show user pic has been chosen.
+3. Fix Terms and Conditions Pop Up. Make terms and conditions box a pop up. Remove it from current static position.
+4. Fix contact us link in terms and conditions. Make it launch default mail client.
+5. Increase size of all Portwists on home page.
+6. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
+
+
+LATER:
 1. Fix width of active area for browse "button"".
-2. Add instructions about how to submit multiple pictures via email.
-3. Increase size of all Portwists on home page.
-
-
-# todo 
-1. Fix Terms and Conditions Pop Up. Make terms and conditions box a pop up. Remove it from current static position.
-2. Add instructions on how to email multiple images from iphone to us.
-3. What happens when user submitted name is too long for one line?
+2. Start with (Your Name) and (YOur title) in boxes
+3. Add instructions about how to submit multiple pictures via email from iphone to us.
 4. Work Out Horizontal pics. Horizontal background. How does site determine? Add second background.
-5. Fix contact us link in terms and conditions. Make it launch default mail client.
-6. Fix browse button: Make cursor to pointer. Make pic appear in background. Somehow show user pic has been chosen.
-7. Start with (Your Name) and (YOur title) in boxes
-
-
-# later
-1. Make Submit form work on iphone. Anyway outside an App? 
-2. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
+5. Make Submit form work on iphone. Anyway outside an App? 
 

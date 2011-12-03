@@ -1,0 +1,4 @@
+#!/bin/bash
+gem install bundler
+bundle
+bundle exec rake db:create:all db:setup db:test:prepare db:seed

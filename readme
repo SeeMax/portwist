@@ -10,8 +10,7 @@ portwist/ heynow
 
 ## setup
 
-gem install bundler
-bundle
+script/setup
 
 
 ## open portwist code

@@ -17,13 +17,13 @@
         <div id="picture_title_l">
         <%= f.label :photo_1, 'Picture 1'%>
           <div id="browse_l">
-            <%= f.file_field :photo_1  %>
+            <%= f.file_field :photo_1, :class => 'photo_set_photo_file_field'  %>
           </div>
         </div>
           <div id="picture_title_r">
             <%= f.label :photo_2, 'Picture 2' %><br />
             <div id="browse_r">
-            <%= f.file_field :photo_2 %>
+            <%= f.file_field :photo_2, :class => 'photo_set_photo_file_field' %>
             </div>
           </div>
       </div><!--#frame -->

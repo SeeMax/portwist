@@ -39,7 +39,7 @@ git add . # add all changed to git's index and prepare to commit
 git stash # stash changes away, note "git stash pop" would bring them back
 
 
-## deploy to heroku
+## deploy to heroku (portwist.com)
 
 git push heroku master
 

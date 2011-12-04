@@ -35,12 +35,10 @@
       </div><!--#frame -->
         <div id='descriptions'>
           <div id="description_st_l">
-            <%= f.text_field :your_title %><br />
-            <%= f.label :your_title, '(YOUR TITLE)' %>
+            <%= f.text_field :your_title, :placeholder => '(YOUR TITLE)', :maxlength => 30 %>
           </div>
           <div id="description_st_r">
-            <%= f.text_field :your_name %><br />
-            <%= f.label :your_name, '(YOUR NAME)' %>
+            <%= f.text_field :your_name, :placeholder => '(YOUR NAME)', :maxlength => 30 %>
           </div>
         </div><!--#descriptions -->
         <div id="submit">

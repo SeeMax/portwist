@@ -44,20 +44,15 @@ git stash # stash changes away, note "git stash pop" would bring them back
 git push heroku master
 
 
-## max
-TODAY:
-1. Fix Terms and Conditions Pop Up. Make terms and conditions box a pop up. Remove it from current static position.
-2. Fix contact us link in terms and conditions. Make it launch default mail client.
-3. Increase size of all Portwists on home page.
-4. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
+SOON:
+1. On home page: Make name and title divs end at edge of picture and drop down to a second line if they are long. CSS: description_l, description_r
+2. Increase size of all Portwists on home page.
+3. Fix browse button styles. Color, spacing. Make browse button different color after submission?
 
-
-LATER:
-1. Fix browse button styles. Color, spacing. Make browse button different color after submission?
-2. Make name and title divs end at edge of picture and drop down to a second line if they are long. CSS: description_l, description_r
-2. Fix width of active area for browse "button"".
-3. Start with (Your Name) and (YOur title) in boxes
-4. Add instructions about how to submit multiple pictures via email from iphone to us.
-5. Work Out Horizontal pics. Horizontal background. How does site determine? Add second background.
-6. Make Submit form work on iphone. Anyway outside an App? 
-7. Can Show user pic they have chosen.
+LONG TERM:
+1. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
+2. Add instructions about how to submit multiple pictures via email from iphone to us.
+3. make light box for each portwist
+4. Work Out Horizontal pics. Horizontal background. How does site determine? Add second background.
+5. Show user pic they have chosen.
+6. Make iPhone App

@@ -86,7 +86,7 @@ input[type="text"] {width:121px; height:12px; border-width:1px; border-color:#b4
 
 
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
-#wrapper_tandc {width:590px; margin: 230px auto 10px auto; padding: 35px 0px 35px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
+#wrapper_tandc {width:590px; margin: 0 auto 0 auto; padding: 35px 0px 35px 0px; border-style:solid; border-color:#b4b5b7; border-width:11px;}
 #p1_tandc {text-align:center; margin-right:auto; margin-left:auto; margin-top: 10px; margin-bottom:10px; color:#b4b5b7; font:43px century gothic,sans-serif;}
 #p2_tandc {text-align:center; margin-right: auto; margin-left: auto;color:#b4b5b7; font:13px century gothic,sans-serif;}
 #tryagain {text-align:center; padding: 30px 0px 0px 0px;}

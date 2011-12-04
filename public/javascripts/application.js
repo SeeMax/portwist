@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  // modals
+
+  $(".fancybox").fancybox();
+
   //
   // file uploads
   //

@@ -44,7 +44,9 @@
         <div id="submit">
           <%= f.submit "", :type => :image, :src => "/images/submit_button.png" %>
           </br>
-          <div id='submit_plain'> By clicking submit you agree to the <a id='submit_link' href="/terms"> terms & conditions.</a>
+          <div id='submit_plain'>
+            By clicking submit you agree to the 
+            <%= link_to 'terms & conditions', terms_url, :id => 'submit_link', :class => 'fancybox fancybox.ajax' %>
           </div>
         </div>
 

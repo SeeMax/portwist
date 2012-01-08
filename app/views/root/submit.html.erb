@@ -19,7 +19,7 @@
           <div id="browse_l">
             <span class="file-wrapper">
               <input type="file" name="photo_set[photo_1]" id="photo_set_photo_1" class="photo_set_photo_file_field" />
-              <span class="button">Choose a Photo</span>
+              <span class="button">BROWSE</span>
             </span>
           </div>
         </div>
@@ -28,17 +28,17 @@
             <div id="browse_r">
               <span class="file-wrapper">
                 <input type="file" name="photo_set[photo_2]" id="photo_set_photo_2" class="photo_set_photo_file_field" />
-                <span class="button">Choose a Photo</span>
+                <span class="button">BROWSE</span>
               </span>
             </div>
           </div>
       </div><!--#frame -->
-        <div id='descriptions'>
-          <div id="description_st_l">
-            <%= f.text_field :your_title, :placeholder => '(YOUR TITLE)', :maxlength => 30 %>
-          </div>
-          <div id="description_st_r">
+        <div class='descriptions'>
+          <div class="descriptions_r">
             <%= f.text_field :your_name, :placeholder => '(YOUR NAME)', :maxlength => 30 %>
+          </div>
+          <div class="descriptions_l">
+            <%= f.text_field :your_title, :placeholder => '(YOUR TITLE)', :maxlength => 30 %>
           </div>
         </div><!--#descriptions -->
         <div id="submit">

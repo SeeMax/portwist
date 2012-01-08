@@ -18,7 +18,7 @@ $(document).ready(function(){
        $button = $this.siblings('.button'),
        $fakeFile = $this.siblings('.file-holder');
    if(newVal !== '') {
-     $button.text('Photo Chosen');
+     $button.text('GOT IT');
      if($fakeFile.length === 0) {
        $button.after('<span class="file-holder">' + newVal + '</span>');
      } else {

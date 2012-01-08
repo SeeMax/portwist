@@ -41,9 +41,29 @@ p.right {text-align:left; font:14px century gothic,sans-serif; color:#b4b5b7;}
 #picture_title_r {width: 160px; height: 70px; float:right; margin: 28px 13px 10px 0px; padding: 50px 0px 0px 0px; font:12px century gothic,sans-serif; color:#b4b5b7;text-align:center;}
 #instructions {float:left; margin: 30px 0px 0px 25px;}
 #instructions li {display:block; color:#b4b5b7; font:12px century gothic,sans-serif;}
-#descriptions {margin:170px 15px 0px 345px; padding: 0px 0px 40px 0px;}
-#description_st_l {float:left; margin:0px 0px 0px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-align:left;}
-#description_st_r {float:right; margin:0px 0px 0px 0px; color:#b4b5b7; font:13px century gothic,sans-serif; text-align:right;}
+.descriptions {
+	margin:170px 15px 0px 345px; 
+	padding: 0px 0px 40px 0px;
+	border-style:solid; border-color:red; border-width:1px;
+	}
+
+.descriptions_l {
+	float:left;  
+	color:#b4b5b7; 
+	font:13px century gothic,sans-serif;
+		}
+
+.descriptions_r {
+	float:right;  
+	color:#b4b5b7; 
+	font:13px century gothic,sans-serif; 
+	text-align:right;
+	}
+
+input.placeholder {
+    text-align:;
+}
+
 #submit {margin:20px 0px 0px 337px; padding: 10px 0px 30px 0px;color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: none; text-align:center}
 #submit_plain {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: none; padding: 10px 0px 0px 0px;}
 #submit_link {color:#b4b5b7; font:10px century gothic,sans-serif; text-decoration: underline;}
@@ -59,7 +79,8 @@ input[type="text"] {width:121px; height:12px; border-width:1px; border-color:#b4
   display: inline-block;
   overflow: hidden;
   position: relative;
-}
+	}
+
 .file-wrapper input {
   cursor: pointer;
   font-size: 100px;
@@ -72,18 +93,17 @@ input[type="text"] {width:121px; height:12px; border-width:1px; border-color:#b4
   top: 0;
 }
 .file-wrapper .button {
-  background: #79130e;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background: #b4b5b7;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 11px;
-  font-weight: bold;
-  margin-right: 5px;
-  padding: 4px 18px;
-  text-transform: uppercase;
+	font: century gothic,sans-serif; 
+  font-size: 12px;
+  margin: 13px 5px 0px 0px;
+  padding: 2px 38px;
 }
 
 

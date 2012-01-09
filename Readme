@@ -47,10 +47,13 @@ git push heroku master
 SOON:
 1. On home page: Make name and title drop character limit the length of one line.
 2. Make 2 separate line id's. change spacing below so bottom of page has some space. lose some space on top of background image to compensate.
-2. Increase size of all Portwists on home page.
+2. Fix picture size on home page.
 3. Make browse button different color after submission?
 4. Make submit button pure CSS
-5. How to implement the jquery to make  place holder -> text-align: right; work in webkit. Have .js file. not working though.
+5. Make  place holder -> text-align: right; work in webkit. Have .js file. not working though.  How to implement the jquery?
+6. increase the width of the (your name) (your title) boxes so they extend to width of picture frame. ALso fix the height.
+7. Fix the way the file names are displayed after submit.
+
 LONG TERM:
 1. Fix up the back end/ admin approval page. Fix buttons. Make posts disappear after approval?
 2. Add instructions about how to submit multiple pictures via email from iphone to us.

@@ -49,7 +49,6 @@ SOON:
 2. Make 2 separate line id's. change spacing below so bottom of page has some space. lose some space on top of background image to compensate.
 2. Fix picture size on home page.
 3. Make browse button different color after submission?
-4. Make submit button pure CSS
 5. Make  place holder -> text-align: right; work in webkit. Have .js file. not working though.  How to implement the jquery?
 6. increase the width of the (your name) (your title) boxes so they extend to width of picture frame. ALso fix the height.
 7. Fix the way the file names are displayed after submit.

@@ -341,7 +341,7 @@ p.right {
 .descriptions_r {
 	float:right;  
 	color:#b4b5b7; 
-	font:13px century gothic,sans-serif; 
+	font:12px century gothic,sans-serif; 
 	text-align:right;
 	}
 
@@ -396,6 +396,7 @@ input[type="text"] {
 	border-color:#b4b5b7; 
 	border-style:solid; 
 	margin:5px 0px 3px 0px; 
+	padding: 0px 0px 0px 0px;
 	}
 
 /* file uploads */

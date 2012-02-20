@@ -11,7 +11,7 @@ class PhotoSetsController < ApplicationController
   end
 
   def index
-    @photo_sets = PhotoSet.all
+    @photo_sets = PhotoSet.all.reverse
   end
 
   def update

@@ -31,4 +31,8 @@ $(document).ready(function(){
    $('.file-wrapper input[type=file]').bind('change focus click', SITE.fileInputs);
   });
 
+  $('#photo_set_your_name').focus(function(){
+    $(this).val(' ');
+  });
+
 });

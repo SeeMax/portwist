@@ -5,8 +5,10 @@ class PhotoSet < ActiveRecord::Base
 
   mount_uploader :photo_1, PhotoUploader
   mount_uploader :photo_2, PhotoUploader
-
-  validates_presence_of :photo_1, :photo_2, :your_title, :your_title
+  
+  before_validation :strip_text
+  
+  validates_presence_of :photo_1, :photo_2, :your_name, :your_title
   validates_acceptance_of :terms
   validates_inclusion_of :status, :in => %w(pending approved rejected)
 
@@ -17,6 +19,11 @@ class PhotoSet < ActiveRecord::Base
   scope :rejected, where(:status => 'rejected')
 
   protected
+  
+  def strip_text
+    self.your_name = your_name.try(:strip)
+    self.your_title = your_title.try(:strip)
+  end
 
   def send_notification
     Notifier.notification.deliver

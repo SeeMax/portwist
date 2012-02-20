@@ -1,5 +1,5 @@
 <% @photo_sets.each do |photo_set| %>
-  <p><%= photo_set.id %></p>
+  <p class="hey"><%= photo_set.id %></p>
   <p><%= image_tag photo_set.photo_1.url(:m) %></p>
   <p><%= image_tag photo_set.photo_2.url(:m) %></p>
   <p><%= photo_set.your_title %></p>

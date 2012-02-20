@@ -114,6 +114,9 @@
     box-shadow:      0 6px 6px -6px rgba(0, 0, 0, 0.2);
 	}
 
+.tab-root-submit #tab-submit {
+	background-image:url("../images/submit_btn_active.png");
+}
 
 #tab-how-to {
 	position: absolute; 

@@ -112,6 +112,8 @@ GEM
       ffi (>= 1.0.7)
       json_pure
       rubyzip
+    shotgun (0.9)
+      rack (>= 1.0)
     simple_form (1.4.2)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
@@ -139,5 +141,6 @@ DEPENDENCIES
   pg
   rails (= 3.0.9)
   rmagick
+  shotgun
   simple_form
   sqlite3

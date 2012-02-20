@@ -3,6 +3,11 @@
 http://portwist.com/
 http://portwist.dev/
 
+-or-
+
+be shotgun # be => bundle exec
+http://127.0.0.1:9393/
+CTRL-C to quit
 
 ## admin
 /admin

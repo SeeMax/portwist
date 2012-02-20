@@ -12,6 +12,7 @@ gem 'simple_form'
 
 group :development do
   gem 'sqlite3'
+  gem 'shotgun'
 end
 
 group :test do

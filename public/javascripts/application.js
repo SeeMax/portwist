@@ -34,5 +34,9 @@ $(document).ready(function(){
   $('#photo_set_your_name').focus(function(){
     $(this).val(' ');
   });
+  
+  $('#photo_set_your_title').focus(function(){
+    $(this).val(' ');
+  });
 
 });

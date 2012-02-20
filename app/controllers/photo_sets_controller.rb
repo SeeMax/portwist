@@ -12,6 +12,7 @@ class PhotoSetsController < ApplicationController
 
   def index
     @photo_sets = PhotoSet.all.reverse
+    render :index, :layout => 'admin'
   end
 
   def update

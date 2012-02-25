@@ -304,24 +304,12 @@ p.right {
 	}
 
 #picture_title_l {
-	width:160px;
-	height: 90px;
 	float: left;
-	margin: 28px 0px 10px 12px;
-	padding: 50px 0px 0px 0px;
-	font:12px century gothic,sans-serif;
-	color:#b4b5b7;
 	text-align:center;
 	}
 
 #picture_title_r {
-	width: 160px;
-	height: 90px;
 	float:right;
-	margin: 28px 13px 10px 0px;
-	padding: 50px 0px 0px 0px;
-	font:12px century gothic,sans-serif;
-	color:#b4b5b7;
 	text-align:center;
 	}
 
@@ -429,20 +417,23 @@ input[type="submit"] {
   right: 0;
   top: 0;
 }
-.file-wrapper .button {
-  background: #b4b5b7;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  color: #fff;
+
+.button {
+	background:url(../images/button.png);
   cursor: pointer;
-  display: inline-block;
-	font: century gothic,sans-serif;
-  font-size: 12px;
-  margin: 13px 5px 0px 0px;
-  padding: 2px 38px;
+  display: block;
+  height: 118px;
+  width: 159px;
+  margin-top: 30px;
 }
 
+#picture_title_l .button {
+  margin-left: 13px;
+}
+
+#picture_title_r .button {
+  margin-right: 15px;
+}
 
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
 #wrapper_tandc {

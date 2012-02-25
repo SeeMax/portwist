@@ -18,8 +18,9 @@
         <%= f.label :photo_1, 'Picture 1'%>
           <div id="browse_l">
             <span class="file-wrapper">
-              <input type="file" name="photo_set[photo_1]" id="photo_set_photo_1" class="photo_set_photo_file_field" />
+              <input type="file" name="photo_set[photo_1]" id="photo_set_photo_1" class="photo_set_photo_file_field" onchange="readURL(this, $('#upload_photo_1'));" />
               <span class="button">BROWSE</span>
+              <img id="upload_photo_1" src="#" alt="upload_photo_1" />
             </span>
           </div>
         </div>
@@ -27,8 +28,9 @@
             <%= f.label :photo_2, 'Picture 2' %><br />
             <div id="browse_r">
               <span class="file-wrapper">
-                <input type="file" name="photo_set[photo_2]" id="photo_set_photo_2" class="photo_set_photo_file_field" />
+                <input type="file" name="photo_set[photo_2]" id="photo_set_photo_2" class="photo_set_photo_file_field" onchange="readURL(this, $('#upload_photo_2'));" />
                 <span class="button">BROWSE</span>
+                <img id="upload_photo_2" src="#" alt="upload_photo_2" />
               </span>
             </div>
           </div>
@@ -45,7 +47,7 @@
           <%= f.submit "", :type => :image, :src => "/images/submit_button.png" %>
           </br>
           <div id='submit_plain'>
-            By clicking submit you agree to the 
+            By clicking submit you agree to the
             <%= link_to 'terms & conditions', terms_url, :id => 'submit_link', :class => 'fancybox fancybox.ajax' %>
           </div>
         </div>

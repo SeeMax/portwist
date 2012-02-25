@@ -1,65 +1,65 @@
 
 #headerbar {
-	background:#b4b5b7; 
-	padding:27px 0px; 
+	background:#b4b5b7;
+	padding:27px 0px;
 	width 100%;
 	}
-	
+
 #nav_r {
 	float:right;
 	}
-	
+
 #nav_l {
-	position: absolute; 
+	position: absolute;
 	top: 53px;
-	left: 0px; 
+	left: 0px;
 	z-index:4;
 	}
-	
+
 #logo {
-	text-align: center; 
-	margin: 90px auto 0px auto; 
-	width:700px; 
+	text-align: center;
+	margin: 90px auto 0px auto;
+	width:700px;
 	padding: 0px 30px;
 	}
-	
+
 #line_1 {
-	height:1px; 
-	width:600px; 
-	color:#b4b5b7; 
-	background:#b4b5b7; 
-	border:none; 
+	height:1px;
+	width:600px;
+	color:#b4b5b7;
+	background:#b4b5b7;
+	border:none;
 	margin:50px auto 0px auto;
 	}
-	
+
 #line_2 {
-	height:1px; 
-	width:600px; 
-	color:#b4b5b7; 
-	background:#b4b5b7; 
-	border:none; 
+	height:1px;
+	width:600px;
+	color:#b4b5b7;
+	background:#b4b5b7;
+	border:none;
 	margin:0px auto 0px auto;
 	}
-	
+
 #twitter {
-	position: absolute; 
-	top: 14px; 
+	position: absolute;
+	top: 14px;
 	right: 38px;
 	}
-	
+
 #tab-home {
-	position: absolute; 
-	top: 52px;left: -2px; 
-	z-index:3;background-image:url("../images/home_btn.png"); 
-	height:29px;width:133px; 
+	position: absolute;
+	top: 52px;left: -2px;
+	z-index:3;background-image:url("../images/home_btn.png");
+	height:29px;width:133px;
 	background-repeat:no-repeat;
 	}
 
 #tab-home:hover {
-	position: absolute; 
-	top: 52px;left: -1px; 
-	z-index:3;background-image:url("../images/home_btn.png"); 
-	height:29px;width:133px; 
+	position: absolute;
+	top: 52px;left: -1px;
+	z-index:3;background-image:url("../images/home_btn.png");
+	height:29px;width:133px;
 	background-repeat:no-repeat;
  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
@@ -67,34 +67,34 @@
 	}
 
 #tab-home:active {
-	position: absolute; 
-	top: 52px;left: -2px; 
-	z-index:3;background-image:url("../images/home_btn.png"); 
-	height:29px;width:133px; 
+	position: absolute;
+	top: 52px;left: -2px;
+	z-index:3;background-image:url("../images/home_btn.png");
+	height:29px;width:133px;
 	background-repeat:no-repeat;
  		-webkit-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
 		-moz-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
 		box-shadow:      0 6px 6px -6px rgba(0, 0, 0, 0.2);
 	}
 
-	
+
 #tab-submit {
-	position: absolute; 
-	top: 52px;left: 127px; 
-	z-index:2; 
+	position: absolute;
+	top: 52px;left: 127px;
+	z-index:2;
 	background-image:url("../images/submit_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
 	}
 
 #tab-submit:hover {
-	position: absolute; 
-	top: 52px;left: 128px; 
-	z-index:2; 
+	position: absolute;
+	top: 52px;left: 128px;
+	z-index:2;
 	background-image:url("../images/submit_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
@@ -102,12 +102,12 @@
 	}
 
 #tab-submit:active {
-	position: absolute; 
-	top: 52px;left: 127px; 
-	z-index:2; 
+	position: absolute;
+	top: 52px;left: 127px;
+	z-index:2;
 	background-image:url("../images/submit_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
  -webkit-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
@@ -115,35 +115,35 @@
 	}
 
 #tab-how-to {
-	position: absolute; 
-	top: 52px; 
-	left: 255px; 
+	position: absolute;
+	top: 52px;
+	left: 255px;
 	z-index:1;background-image:url("../images/howto_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
 	}
-	
+
 #tab-how-to:hover {
-	position: absolute; 
-	top: 52px; 
-	left: 256px; 
+	position: absolute;
+	top: 52px;
+	left: 256px;
 	z-index:1;background-image:url("../images/howto_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
     box-shadow:      0 8px 6px -6px rgba(0, 0, 0, 0.2);
 	}
-	
+
 #tab-how-to:active {
-	position: absolute; 
-	top: 52px; 
-	left: 255px; 
+	position: absolute;
+	top: 52px;
+	left: 255px;
 	z-index:1;background-image:url("../images/howto_btn.png");
 	height:29px;
-	width:133px; 
+	width:133px;
 	background-repeat:no-repeat;
 	-webkit-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
 	    -moz-box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
@@ -162,28 +162,28 @@
 	background-image:url("../images/howto_btn_active.png");
 }
 
-#tab-current{	
+#tab-current{
 }
 
 .clear {
 	clear:both;
 	}
-	
+
 
 /*This is the code for index*/
 #content {
-	width:700px; 
-	margin: 0px auto 0px auto; 
+	width:700px;
+	margin: 0px auto 0px auto;
 	padding: 0px 30px;
 	}
-	
+
 #photos {
-	height:275px; 
-	text-align: center; 
-	background-position: top; 
-	background-image:url("../images/camera_background_2.png"); 
-	background-repeat:no-repeat; 
-	text-align: center; 
+	height:275px;
+	text-align: center;
+	background-position: top;
+	background-image:url("../images/camera_background_2.png");
+	background-repeat:no-repeat;
+	text-align: center;
 	margin: 30px 0px 70px 0px;
 	padding: 0px 0px 0px 0px;
 	}
@@ -191,223 +191,223 @@
 #description {
 	margin: 30px 0px 50px 0px;
 	}
-	
+
 #description li {
-	display:inline; 
-	color:#b4b5b7; 
+	display:inline;
+	color:#b4b5b7;
 	font:13px century gothic,sans-serif;
 	}
-	
+
 #description_l {
-	float:left; 
-	margin: 1px 0px 0px 62px; 
-	width:260px; 
-	overflow: auto; 
+	float:left;
+	margin: 1px 0px 0px 62px;
+	width:260px;
+	overflow: auto;
 	text-align:left;
 	}
-	
+
 #description_r {
-	float:right; 
-	margin: 1px 62px 0px 0px; 
-	width:260px; 
-	overflow: auto; 
+	float:right;
+	margin: 1px 62px 0px 0px;
+	width:260px;
+	overflow: auto;
 	text-align:right;
 	}
 
 .user_left {
 	margin: 49px 19px 0px 0px;
 	}
-	
+
 .user_right {
 	margin: 49px 2px 0px 10px;
 	}
 
 /*This is the code for how-to*/
 p.left {
-	text-align:left; 
-	font:14px century gothic,sans-serif; 
-	color:#b4b5b7; 
-	}
-	
-p.right {
-	text-align:left; 
-	font:14px century gothic,sans-serif; 
+	text-align:left;
+	font:14px century gothic,sans-serif;
 	color:#b4b5b7;
 	}
-	
+
+p.right {
+	text-align:left;
+	font:14px century gothic,sans-serif;
+	color:#b4b5b7;
+	}
+
 #left_side {
-	float:left; 
-	width:49%; 
+	float:left;
+	width:49%;
 	margin: 50px 0px 0px 0px;
 	}
 
 #left_side ul {
-	text-align:right; 
-	font:13px century gothic,sans-serif; 
+	text-align:right;
+	font:13px century gothic,sans-serif;
 	color:#b4b5b7;
 	}
 
 #left_side li {
-	text-align:right; 
-	font:13px century gothic,sans-serif; 
-	color:#b4b5b7; 
+	text-align:right;
+	font:13px century gothic,sans-serif;
+	color:#b4b5b7;
 	padding: 0px 0px 20px 0px;
 	}
-	
+
 #right_side {
-	float:right; 
-	width:49%; 
+	float:right;
+	width:49%;
 	margin: 50px 0px 0px 0px;
 	}
-	
+
 #right_side ul {
-	text-align:left; 
-	font:13px century gothic,sans-serif; 
+	text-align:left;
+	font:13px century gothic,sans-serif;
 	color:#b4b5b7;
 	}
-	
+
 #right_side li {
-	text-align:left; 
-	font:13px century gothic,sans-serif; 
-	color:#b4b5b7; 
+	text-align:left;
+	font:13px century gothic,sans-serif;
+	color:#b4b5b7;
 	padding: 0px 0px 20px 0px;
 	}
-	
+
 #submit_text {
-	color:#b4b5b7; 
-	font:13px century gothic,sans-serif; 
+	color:#b4b5b7;
+	font:13px century gothic,sans-serif;
 	text-decoration: underline;
 	}
-	
+
 #wrapper {
-	width:700px; 
-	margin: 0px auto 0px auto; 
+	width:700px;
+	margin: 0px auto 0px auto;
 	padding: 0px 30px;
 	}
-	
+
 #root-index {
 	background:;}
 
 /*This is the code for submit*/
 #wrapper_st {
-	width:700px; 
-	margin:15px auto 0px auto; 
+	width:700px;
+	margin:15px auto 0px auto;
 	padding:0px 30px;
-	} 
-	
+	}
+
 #frame {
-	height:162px; 
-	width:366px; 
-	background-image:url("../images/camera_background_small.png"); 
-	background-repeat:no-repeat; 
+	height:162px;
+	width:366px;
+	background-image:url("../images/camera_background_small.png");
+	background-repeat:no-repeat;
 	float:right;
 	}
-	
+
 #picture_title_l {
-	width:160px; 
-	height: 90px; 
-	float: left; 
-	margin: 28px 0px 10px 12px; 
-	padding: 50px 0px 0px 0px; 
-	font:12px century gothic,sans-serif; 
+	width:160px;
+	height: 90px;
+	float: left;
+	margin: 28px 0px 10px 12px;
+	padding: 50px 0px 0px 0px;
+	font:12px century gothic,sans-serif;
 	color:#b4b5b7;
 	text-align:center;
 	}
-	
+
 #picture_title_r {
-	width: 160px; 
-	height: 90px; 
-	float:right; 
-	margin: 28px 13px 10px 0px; 
-	padding: 50px 0px 0px 0px; 
-	font:12px century gothic,sans-serif; 
+	width: 160px;
+	height: 90px;
+	float:right;
+	margin: 28px 13px 10px 0px;
+	padding: 50px 0px 0px 0px;
+	font:12px century gothic,sans-serif;
 	color:#b4b5b7;
 	text-align:center;
 	}
-	
+
 #instructions {
-	float:left; 
+	float:left;
 	margin: 30px 0px 0px 25px;
 	}
 
 #instructions li {
-	display:block; 
-	color:#b4b5b7; 
+	display:block;
+	color:#b4b5b7;
 	font:12px century gothic,sans-serif;
 	}
-	
+
 .descriptions {
-	margin:172px 15px 0px 348px; 
+	margin:172px 15px 0px 348px;
 	padding: 0px 0px 40px 0px;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:13px century gothic,sans-serif;
 	}
 
 .descriptions_l {
-	float:left;  
-	border-style:solid; 
-	border-color:#E8E8E8 ; 
+	float:left;
+	border-style:solid;
+	border-color:#E8E8E8 ;
 	border-width:1px;
-	margin:1px 0px 1px 0px; 
+	margin:1px 0px 1px 0px;
 	padding: 1px 0px 2px 2px;
 	}
 
 .descriptions_r {
-	float:right;  
+	float:right;
 	text-align:right;
-	border-style:solid; 
-	border-color:#E8E8E8; 
+	border-style:solid;
+	border-color:#E8E8E8;
 	border-width:1px;
-	margin:1px 0px 1px 0px; 
+	margin:1px 0px 1px 0px;
 	padding: 1px 2px 2px 0px;
 	}
-	
+
 input[type="text"] {
-	width:155px; 
-	height:12px; 
+	width:155px;
+	height:12px;
 	}
-	
+
 
 #submit {
-	margin:20px 0px 0px 337px; 
+	margin:20px 0px 0px 337px;
 	padding: 10px 0px 30px 0px;
-	color:#b4b5b7; 
-	font:10px century gothic,sans-serif; 
-	text-decoration: none; 
+	color:#b4b5b7;
+	font:10px century gothic,sans-serif;
+	text-decoration: none;
 	text-align:center
 	}
-	
+
 #submit_plain {
-	color:#b4b5b7; 
-	font:10px century gothic,sans-serif; 
-	text-decoration: none; 
+	color:#b4b5b7;
+	font:10px century gothic,sans-serif;
+	text-decoration: none;
 	padding: 10px 0px 0px 0px;
 	}
-	
+
 #submit_link {
-	color:#b4b5b7; 
-	font:10px century gothic,sans-serif; 
+	color:#b4b5b7;
+	font:10px century gothic,sans-serif;
 	text-decoration: underline;
 	}
 
 #photo_set_your_title {
-	color:#b4b5b7; 
-	font:12px century gothic,sans-serif; 
-	text-align:left; 
+	color:#b4b5b7;
+	font:12px century gothic,sans-serif;
+	text-align:left;
 	border-style:none;
 	}
-	
+
 #photo_set_your_name {
-	color:#b4b5b7; 
-	font:12px century gothic,sans-serif; 
-	text-align:right; 
+	color:#b4b5b7;
+	font:12px century gothic,sans-serif;
+	text-align:right;
 	border-style:none;
 	}
-	
+
 input[type="submit"] {
 	background:url(../images/submit_button.png);
 	}
-	
+
 
 /* file uploads */
 
@@ -437,7 +437,7 @@ input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-	font: century gothic,sans-serif; 
+	font: century gothic,sans-serif;
   font-size: 12px;
   margin: 13px 5px 0px 0px;
   padding: 2px 38px;
@@ -446,104 +446,109 @@ input[type="submit"] {
 
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
 #wrapper_tandc {
-	width:590px; 
-	margin: 0 auto 0 auto; 
-	padding: 35px 0px 35px 0px; 
-	border-style:solid; 
-	border-color:#b4b5b7; 
+	width:590px;
+	margin: 0 auto 0 auto;
+	padding: 35px 0px 35px 0px;
+	border-style:solid;
+	border-color:#b4b5b7;
 	border-width:11px;
 	}
-	
+
 #p1_tandc {
-	text-align:center; 
-	margin-right:auto; 
-	margin-left:auto; 
-	margin-top: 10px; 
-	margin-bottom:10px; 
-	color:#b4b5b7; 
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 10px;
+	margin-bottom:10px;
+	color:#b4b5b7;
 	font:43px century gothic,sans-serif;
 	}
-	
+
 #p2_tandc {
-	text-align:center; 
-	margin-right: auto; 
+	text-align:center;
+	margin-right: auto;
 	margin-left: auto;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:13px century gothic,sans-serif;
 	}
-	
+
 #tryagain {
-	text-align:center; 
+	text-align:center;
 	padding: 30px 0px 0px 0px;
 	}
 
 /*This is the code for success pop up  The top and bottom margin will change once it becomes a pop up*/
 #content_sc {
-	width:590px; 
-	margin: 50px auto 50px auto; 
-	padding: 20px 0px 20px 0px; 
-	border-style:solid; 
-	border-color:#b4b5b7; 
+	width:590px;
+	margin: 50px auto 50px auto;
+	padding: 20px 0px 20px 0px;
+	border-style:solid;
+	border-color:#b4b5b7;
 	border-width:11px;
 	}
 
 #p1_sc {
-	text-align:center; 
-	margin-right: auto; 
+	text-align:center;
+	margin-right: auto;
 	margin-left: auto;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:110px century gothic,sans-serif;
 	}
-	
+
 #p2_sc {
-	text-align:center; 
-	margin-right: auto; 
+	text-align:center;
+	margin-right: auto;
 	margin-left: auto;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:15px century gothic,sans-serif;
 	}
-	
+
 #tryagain {
-	text-align:center; 
+	text-align:center;
 	padding: 30px 0px 0px 0px;
 	}
-	
+
 #submit_text_sc {
-	color:#b4b5b7; 
-	font:15px century gothic,sans-serif; 
+	color:#b4b5b7;
+	font:15px century gothic,sans-serif;
 	text-decoration: underline;
 	}
 
 /*This is the code for failure pop up  The top and bottom margin will change once it becomes a pop up*/
 #content_f {
-	width:590px; 
-	margin: 50px auto 10px auto; 
-	padding: 0px 0px 20px 0px; 
-	border-style:solid; 
-	border-color:#b4b5b7; 
+	width:590px;
+	margin: 50px auto 10px auto;
+	padding: 0px 0px 20px 0px;
+	border-style:solid;
+	border-color:#b4b5b7;
 	border-width:11px;
 	}
-	
+
 #p1_f {
-	text-align:center; 
-	margin-right: auto; 
+	text-align:center;
+	margin-right: auto;
 	margin-left: auto;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:110px century gothic,sans-serif;
 	}
-	
+
 #p2_f {
-	text-align:center; 
-	margin-right: auto; 
+	text-align:center;
+	margin-right: auto;
 	margin-left: auto;
-	color:#b4b5b7; 
+	color:#b4b5b7;
 	font:15px century gothic,sans-serif;
 	}
-	
+
 #tryagain {
-	text-align:center; 
+	text-align:center;
 	padding: 30px 0px 0px 0px;
 	}
 
-		
-/*This is the code for testing borders* border-style:solid; border-color:red; border-width:1px;/
+/* This is the code for testing borders border-style:solid; border-color:red; border-width:1px */
+
+#upload_photo_1, #upload_photo_2 {
+  display:none;
+  height:100px;
+  width:100px;
+}

@@ -419,11 +419,11 @@ input[type="submit"] {
 }
 
 .button {
-	background:url(../images/button.png);
+	background:white;
   cursor: pointer;
   display: block;
-  height: 118px;
-  width: 159px;
+  height: 119px;
+  width: 160px;
   margin-top: 30px;
 }
 
@@ -436,11 +436,11 @@ input[type="submit"] {
 }
 
 .button-ready {
-  -o-background-size: 159px 118px;
-  -webkit-background-size: 159px 118px;
-  -khtml-background-size: 159px 118px;
-  -moz-background-size: 159px 118px;
-  background-size: 159px 118px;
+  -o-background-size: 160px 119px;
+  -webkit-background-size: 160px 119px;
+  -khtml-background-size: 160px 119px;
+  -moz-background-size: 160px 119px;
+  background-size: 160px 119px;
 }
 
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/

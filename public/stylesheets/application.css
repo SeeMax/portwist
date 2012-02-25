@@ -38,7 +38,7 @@
 	color:#b4b5b7; 
 	background:#b4b5b7; 
 	border:none; 
-	margin:50px auto 30px auto;
+	margin:0px auto 0px auto;
 	}
 	
 #twitter {
@@ -184,11 +184,12 @@
 	background-image:url("../images/camera_background_2.png"); 
 	background-repeat:no-repeat; 
 	text-align: center; 
-	margin: 30px 0px 50px 0px;
+	margin: 30px 0px 70px 0px;
+	padding: 0px 0px 0px 0px;
 	}
 
 #description {
-	margin: 35px 0px 0px 0px;
+	margin: 30px 0px 50px 0px;
 	}
 	
 #description li {
@@ -199,26 +200,26 @@
 	
 #description_l {
 	float:left; 
-	margin: 0px 0px 0px 62px; 
-	width:160px; 
+	margin: 1px 0px 0px 62px; 
+	width:260px; 
 	overflow: auto; 
 	text-align:left;
 	}
 	
 #description_r {
 	float:right; 
-	margin: 0px 62px 0px 0px; 
-	width:160px; 
+	margin: 1px 62px 0px 0px; 
+	width:260px; 
 	overflow: auto; 
 	text-align:right;
 	}
 
 .user_left {
-	margin: 49px 20px 0px 0px;
+	margin: 49px 19px 0px 0px;
 	}
 	
 .user_right {
-	margin: 48px 2px 0px 11px;
+	margin: 49px 2px 0px 10px;
 	}
 
 /*This is the code for how-to*/
@@ -336,21 +337,34 @@ p.right {
 	}
 	
 .descriptions {
-	margin:170px 13px 0px 345px; 
+	margin:172px 15px 0px 348px; 
 	padding: 0px 0px 40px 0px;
+	color:#b4b5b7; 
+	font:13px century gothic,sans-serif;
 	}
 
 .descriptions_l {
 	float:left;  
-	color:#b4b5b7; 
-	font:13px century gothic,sans-serif;
-		}
+	border-style:solid; 
+	border-color:#E8E8E8 ; 
+	border-width:1px;
+	margin:1px 0px 1px 0px; 
+	padding: 1px 0px 2px 2px;
+	}
 
 .descriptions_r {
 	float:right;  
-	color:#b4b5b7; 
-	font:12px century gothic,sans-serif; 
 	text-align:right;
+	border-style:solid; 
+	border-color:#E8E8E8; 
+	border-width:1px;
+	margin:1px 0px 1px 0px; 
+	padding: 1px 2px 2px 0px;
+	}
+	
+input[type="text"] {
+	width:155px; 
+	height:12px; 
 	}
 	
 
@@ -394,12 +408,6 @@ input[type="submit"] {
 	background:url(../images/submit_button.png);
 	}
 	
-input[type="text"] {
-	width:160px; 
-	height:12px; 
-	margin:5px 0px 5px 0px; 
-	padding: 0px 0px 0px 0px;
-	}
 
 /* file uploads */
 
@@ -537,10 +545,5 @@ input[type="text"] {
 	padding: 30px 0px 0px 0px;
 	}
 
-/*This is the code for styling the submission fields;*/
-.field {}
-.submit_btn {}
-.actions {}
-	
-	
+		
 /*This is the code for testing borders* border-style:solid; border-color:red; border-width:1px;/

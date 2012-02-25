@@ -10,7 +10,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
   end
 
   version :home do
-    process :resize_to_limit => [272, 231]
+    process :resize_to_limit => [274, 233]
   end
 
   version :m do

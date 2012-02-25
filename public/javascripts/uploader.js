@@ -4,6 +4,7 @@ function readURL(input, button) {
 
     reader.onload = function (e) {
       button.css('background-image', "url('" + e.target.result + "')");
+      button.addClass('button-ready');
     }
 
     reader.readAsDataURL(input.files[0]);

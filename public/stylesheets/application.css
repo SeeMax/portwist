@@ -435,6 +435,14 @@ input[type="submit"] {
   margin-right: 15px;
 }
 
+.button-ready {
+  -o-background-size: 118px 159px;
+  -webkit-background-size: 118px 159px;
+  -khtml-background-size: 118px 159px;
+  -moz-background-size: 118px 159px;
+  background-size: 118px 159px;
+}
+
 /*This is the code for tandc  The top and bottom margin will change once it becomes a pop up*/
 #wrapper_tandc {
 	width:590px;

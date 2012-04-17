@@ -6,14 +6,14 @@
 </head>
 <body>
 
-<%= form_for PhotoUpload.new, :html => { :multipart => true, :id => "fileupload1" } do |f| %>
+<%= form_for PhotoUpload.new, :html => { :multipart => true, :class => "fileupload" } do |f| %>
   <%= f.file_field :photo, :multiple => true %>
-  <div class="fileupload"></div>
+  <div class="fileuploaded"></div>
 <% end %>
 
-<%= form_for PhotoUpload.new, :html => { :multipart => true, :id => "fileupload1" } do |f| %>
+<%= form_for PhotoUpload.new, :html => { :multipart => true, :class => "fileupload" } do |f| %>
   <%= f.file_field :photo, :multiple => true %>
-  <div class="fileupload"></div>
+  <div class="fileuploaded"></div>
 <% end %>
 
 <%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
@@ -30,11 +30,11 @@
 
 <script>
 $(function() {
-  $('#fileupload1, #fileupload2').fileupload({
+  $('.fileupload').fileupload({
     dataType: 'json',
     done: function (e, data) {
       $.each(data.result, function (index, photo_upload) {
-        $('.fileupload:empty').first().append("<div><img src='" + photo_upload.photo_url_m + "'></div>");
+        $('.fileuploaded:empty').first().append("<div><img src='" + photo_upload.photo_url_m + "'></div>");
 
         $('.photo_set_photo_url').each(function(index) {
           if ($(this).val() == '') {

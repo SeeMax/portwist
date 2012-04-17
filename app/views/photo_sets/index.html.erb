@@ -1,11 +1,20 @@
-<% @photo_sets.each do |photo_set| %>
-  <p class="hey"><%= photo_set.id %></p>
-  <p><%= image_tag photo_set.photo_1.url(:m) %></p>
-  <p><%= image_tag photo_set.photo_2.url(:m) %></p>
-  <p><%= photo_set.your_title %></p>
-  <p><%= photo_set.your_name %></p>
-  <p><%= photo_set.status %></p>
-  <%= button_to "approve", {:action => "update", :id => photo_set.id, :status => "approved"}, :method => :put %>
-  <%= button_to "reject", {:action => "update", :id => photo_set.id, :status => "rejected"}, :method => :put %>
-  <hr>
+<div class = 'wrapper'>
+
+  <div class "descriptions"><% @photo_sets.each do |photo_set| %></div>
+  <%= photo_set.id %>
+  <p class = 'descriptions_r'><%= image_tag photo_set.photo_1.url(:m) %></p>
+  <p class='descriptions_l'><%= image_tag photo_set.photo_2.url(:m) %></p>
+  <div class='clear'> <div>
+  <p class = 'descriptions_r'><%= photo_set.your_title %></p>
+  <p class = 'descriptions_l'><%= photo_set.your_name %></p>
+  <div class='clear'> <div>
+  <div class = 'status'><%= photo_set.status %></div>
+  <div class = 'buttons'>
+  <%= button_to "post it", {:action => "update", :id => photo_set.id, :status => "approved"}, :method => :put %>
+  </div>
+  <div class = 'buttons'>
+  <%= button_to "nope", {:action => "update", :id => photo_set.id, :status => "rejected"}, :method => :put %>
+  </div>
+  <hr class = 'line_1'>
 <% end %>
+</div>

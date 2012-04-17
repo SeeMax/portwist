@@ -1,7 +1,7 @@
 class PhotoSet < ActiveRecord::Base
   attr_accessor :terms
 
-  attr_accessible :photo_1, :photo_2, :your_title, :your_name, :terms, :status
+  attr_accessible :photo_1, :photo_2, :your_title, :your_name, :terms, :status, :remote_photo_1_url, :remote_photo_2_url
 
   mount_uploader :photo_1, PhotoUploader
   mount_uploader :photo_2, PhotoUploader

@@ -16,17 +16,32 @@
   <div class="fileupload"></div>
 <% end %>
 
+<%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
+  <%= f.text_field :remote_photo_1_url, :class => 'photo_set_photo_url' %>
+  <%= f.text_field :remote_photo_2_url, :class => 'photo_set_photo_url' %>
+  <%= f.text_field :your_name, :placeholder => '(YOUR NAME)', :maxlength => 27 %>
+  <%= f.text_field :your_title, :placeholder => '(YOUR TITLE)', :maxlength => 27 %>
+  <%= f.submit "Submit" %>
+<% end %>
+
 <script src="/javascripts/jquery.js"></script>
 <script src="/javascripts/jquery.ui.widget.js"></script>
 <script src="/javascripts/jquery.fileupload.js"></script>
 
 <script>
-$(function () {
+$(function() {
   $('#fileupload1, #fileupload2').fileupload({
     dataType: 'json',
     done: function (e, data) {
       $.each(data.result, function (index, photo_upload) {
         $('.fileupload:empty').first().append("<div><img src='" + photo_upload.photo_url_m + "'></div>");
+
+        $('.photo_set_photo_url').each(function(index) {
+          if ($(this).val() == '') {
+            $(this).val(photo_upload.photo_url);
+            return false;
+          }
+        });
       });
     }
   });

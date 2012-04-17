@@ -17,8 +17,8 @@
 <% end %>
 
 <%= form_for PhotoSet.new, :html => {:multipart => true} do |f| %>
-  <%= f.text_field :remote_photo_1_url, :class => 'photo_set_photo_url' %>
-  <%= f.text_field :remote_photo_2_url, :class => 'photo_set_photo_url' %>
+  <%= f.hidden_field :remote_photo_1_url, :class => 'photo_set_photo_url' %>
+  <%= f.hidden_field :remote_photo_2_url, :class => 'photo_set_photo_url' %>
   <%= f.text_field :your_name, :placeholder => '(YOUR NAME)', :maxlength => 27 %>
   <%= f.text_field :your_title, :placeholder => '(YOUR TITLE)', :maxlength => 27 %>
   <%= f.submit "Submit" %>
